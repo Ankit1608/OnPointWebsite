@@ -1,0 +1,29 @@
+@font-face {
+  src: url("./assets/Poppins-Regular.ttf");
+  font-family: poppins-regular;
+}
+@font-face {
+  src: url("./assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+
+.search-category-main-container {
+  height: 75vh;
+  width: 100vw;
+  background-color: #f5f5f5;
+  position: relative;
+  z-index: 999;
+}
+.search-category-heading-text {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: montserrat-regular;
+}
+.search-category-iamge-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}

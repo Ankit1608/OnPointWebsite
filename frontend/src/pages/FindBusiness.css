@@ -1,0 +1,28 @@
+@font-face {
+  src: url("./assets/Poppins-Regular.ttf");
+  font-family: poppins-regular;
+}
+@font-face {
+  src: url("./assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+.findbusiness-main-container {
+  height: 65vh;
+  width: 100vw;
+  background-color: #f5f5f5;
+  position: relative;
+  z-index: 999;
+}
+
+.findbusiness-iamge-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.findbusiness-heading-text {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: montserrat-regular;
+}
